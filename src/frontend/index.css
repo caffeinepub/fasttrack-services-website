@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+
+    /* FastTrack Services Corporate Palette — OKLCH (L C H) */
+    /* Deep Navy Blue #1E3A5F → oklch(0.29 0.08 245) */
+    /* Mid Blue #2E5B9A  → oklch(0.42 0.12 243) */
+    /* Sky Blue #4A90D9  → oklch(0.59 0.13 237) */
+    /* Light Blue #E8F1FC→ oklch(0.95 0.03 240) */
+
+    --background: 1 0 0;
+    --foreground: 0.26 0 0;
+    --card: 1 0 0;
+    --card-foreground: 0.26 0 0;
+    --popover: 1 0 0;
+    --popover-foreground: 0.26 0 0;
+
+    --primary: 0.29 0.08 245;
+    --primary-foreground: 1 0 0;
+
+    --secondary: 0.97 0.008 240;
+    --secondary-foreground: 0.29 0.08 245;
+
+    --muted: 0.97 0.008 240;
+    --muted-foreground: 0.48 0 0;
+
+    --accent: 0.59 0.13 237;
+    --accent-foreground: 1 0 0;
+
+    --destructive: 0.577 0.245 27.325;
+    --destructive-foreground: 1 0 0;
+
+    --border: 0.91 0.008 240;
+    --input: 0.91 0.008 240;
+    --ring: 0.42 0.12 243;
+
+    /* Brand tokens */
+    --brand-navy:      0.29 0.08 245;
+    --brand-mid-blue:  0.42 0.12 243;
+    --brand-sky:       0.59 0.13 237;
+    --brand-light-blue:0.95 0.03 240;
+    --brand-section-bg:0.97 0.008 240;
+    --brand-text-dark: 0.26 0 0;
+    --brand-text-mid:  0.48 0 0;
+    --brand-text-light:0.62 0 0;
+
+    /* Charts */
+    --chart-1: 0.42 0.12 243;
+    --chart-2: 0.59 0.13 237;
+    --chart-3: 0.29 0.08 245;
+    --chart-4: 0.65 0.09 220;
+    --chart-5: 0.75 0.07 230;
+
+    /* Sidebar */
+    --sidebar: 0.29 0.08 245;
+    --sidebar-foreground: 1 0 0;
+    --sidebar-primary: 0.59 0.13 237;
+    --sidebar-primary-foreground: 1 0 0;
+    --sidebar-accent: 0.36 0.10 245;
+    --sidebar-accent-foreground: 1 0 0;
+    --sidebar-border: 0.36 0.10 245;
+    --sidebar-ring: 0.59 0.13 237;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: "Plus Jakarta Sans", "Outfit", ui-sans-serif, system-ui,
+      -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* slightly tighter base line height than browser default */
+    line-height: 1.6;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Cabinet Grotesk", "Mona Sans", "Bricolage Grotesque",
+      ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    line-height: 1.12;
+  }
+}
+
+@layer utilities {
+  /* ── Palette helpers ───────────────────────────────────── */
+  .brand-navy        { background-color: oklch(var(--brand-navy)); }
+  .text-brand-navy   { color: oklch(var(--brand-navy)); }
+  .bg-brand-section  { background-color: oklch(var(--brand-section-bg)); }
+  .text-brand-mid    { color: oklch(var(--brand-text-mid)); }
+
+  /* ── Hero gradient ─────────────────────────────────────── */
+  .hero-gradient {
+    background: linear-gradient(
+      140deg,
+      oklch(var(--brand-navy)) 0%,
+      oklch(0.34 0.09 245) 45%,
+      oklch(var(--brand-mid-blue)) 100%
+    );
+  }
+
+  /* ── Card hover (lift + shadow) ────────────────────────── */
+  .card-hover {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+  .card-hover:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 16px 40px -10px oklch(var(--brand-navy) / 0.18);
+  }
+
+  /* ── Section eyebrow line accent ───────────────────────── */
+  .section-divider::after {
+    content: "";
+    display: block;
+    width: 3rem;
+    height: 3px;
+    background: oklch(var(--brand-sky));
+    border-radius: 2px;
+    margin-top: 0.65rem;
+  }
+
+  /* ── Frosted glass panel ───────────────────────────────── */
+  .glass-panel {
+    background: oklch(1 0 0 / 0.08);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid oklch(1 0 0 / 0.15);
+  }
+
+  /* ── Focus ring ────────────────────────────────────────── */
+  :focus-visible {
+    outline: 2px solid oklch(var(--brand-sky));
+    outline-offset: 2px;
+  }
+}
