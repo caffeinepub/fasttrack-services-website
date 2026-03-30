@@ -36,6 +36,9 @@ export default function Footer() {
               Connecting Talent with Opportunity — bridging the gap between
               skilled professionals and the businesses that need them.
             </p>
+            <p className="text-white/55 text-sm italic font-medium">
+              AllWay Services – We Handle It All
+            </p>
             <div className="flex items-center gap-2 mt-4">
               <div className="h-px w-8 bg-white/25" />
               <span className="text-white/40 text-xs uppercase tracking-widest font-medium">
@@ -83,10 +86,10 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <Mail className="h-4 w-4 text-brand-sky mt-0.5 shrink-0" />
                 <a
-                  href="mailto:info@fasttrackservices.com"
+                  href="mailto:info@allwayservices.com"
                   className="text-white/70 hover:text-white text-sm transition-colors"
                 >
-                  info@fasttrackservices.com
+                  info@allwayservices.com
                 </a>
               </li>
               <li className="flex items-start gap-3">

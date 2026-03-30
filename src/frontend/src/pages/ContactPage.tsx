@@ -33,8 +33,8 @@ const contactDetails = [
   {
     icon: <Mail className="h-5 w-5" />,
     label: "Email",
-    value: "info@fasttrackservices.com",
-    href: "mailto:info@fasttrackservices.com",
+    value: "info@allwayservices.com",
+    href: "mailto:info@allwayservices.com",
   },
   {
     icon: <MapPin className="h-5 w-5" />,
@@ -355,10 +355,10 @@ export default function ContactPage() {
                   </a>
                   <br />
                   <a
-                    href="mailto:info@fasttrackservices.com"
+                    href="mailto:info@allwayservices.com"
                     className="hover:text-brand-navy transition-colors"
                   >
-                    info@fasttrackservices.com
+                    info@allwayservices.com
                   </a>
                 </p>
               </div>

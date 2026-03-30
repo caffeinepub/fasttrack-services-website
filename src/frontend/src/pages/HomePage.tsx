@@ -151,6 +151,10 @@ export default function HomePage() {
                   </span>
                 </h1>
 
+                <p className="text-white/75 text-base italic font-medium tracking-wide mb-4">
+                  AllWay Services – We Handle It All
+                </p>
+
                 <p className="text-white/72 text-lg leading-relaxed max-w-xl mb-10">
                   AllWay Services bridges the gap between skilled talent and
                   businesses that need workforce support — making hiring faster,
