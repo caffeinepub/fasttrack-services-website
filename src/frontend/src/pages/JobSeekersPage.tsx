@@ -143,7 +143,7 @@ export default function JobSeekersPage() {
     <div className="flex flex-col">
       <PageHeader
         title="Find Your Next Opportunity"
-        subtitle="Your next career move starts here. Let FastTrack Services connect you with the right employer."
+        subtitle="Your next career move starts here. Let AllWay Services connect you with the right employer."
         breadcrumb="For Job Seekers"
       />
 
@@ -157,7 +157,7 @@ export default function JobSeekersPage() {
             We Find Jobs That Fit You
           </h2>
           <p className="text-brand-text-mid text-lg leading-relaxed">
-            Looking for work? FastTrack Services connects skilled and motivated
+            Looking for work? AllWay Services connects skilled and motivated
             individuals with employers who value their talent. Whether you're
             entering the workforce, changing careers, or seeking better
             opportunities, we're here to make it happen.

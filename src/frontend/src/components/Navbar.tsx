@@ -54,7 +54,7 @@ export default function Navbar() {
             <Zap className="h-[15px] w-[15px] text-white" fill="white" />
           </div>
           <span className="tracking-tight">
-            <span className="text-brand-navy">FastTrack</span>
+            <span className="text-brand-navy">AllWay</span>
             <span className="text-brand-sky"> Services</span>
           </span>
         </Link>

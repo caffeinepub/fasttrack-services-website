@@ -152,7 +152,7 @@ export default function HomePage() {
                 </h1>
 
                 <p className="text-white/72 text-lg leading-relaxed max-w-xl mb-10">
-                  FastTrack Services bridges the gap between skilled talent and
+                  AllWay Services bridges the gap between skilled talent and
                   businesses that need workforce support — making hiring faster,
                   smarter, and more reliable.
                 </p>
@@ -256,11 +256,11 @@ export default function HomePage() {
                 Who We Are
               </p>
               <h2 className="font-display text-3xl md:text-[2.4rem] font-bold text-brand-navy mb-3 leading-tight">
-                About FastTrack Services
+                About AllWay Services
               </h2>
               <div className="h-[3px] w-12 rounded-full bg-brand-sky mb-7" />
               <p className="text-brand-text-mid leading-[1.8] mb-4">
-                FastTrack Services is a newly established manpower solutions
+                AllWay Services is a newly established manpower solutions
                 provider committed to bridging the gap between skilled talent
                 and the businesses that need workforce support. We combine
                 industry expertise with a personalized approach to deliver
@@ -392,7 +392,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ─── Why Choose FastTrack ─── */}
+      {/* ─── Why Choose AllWay ─── */}
       <section className="py-24 bg-white">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="max-w-2xl mb-14">
@@ -401,7 +401,7 @@ export default function HomePage() {
               Our Advantage
             </p>
             <h2 className="font-display text-3xl md:text-[2.4rem] font-bold text-brand-navy leading-tight">
-              Why Choose FastTrack Services
+              Why Choose AllWay Services
             </h2>
             <p className="mt-4 text-brand-text-mid leading-relaxed">
               Speed, accuracy, and genuine care — the combination that

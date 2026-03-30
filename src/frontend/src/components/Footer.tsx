@@ -29,7 +29,7 @@ export default function Footer() {
                 <Zap className="h-4 w-4 text-white" fill="white" />
               </div>
               <span className="font-display font-bold text-lg text-white">
-                FastTrack Services
+                AllWay Services
               </span>
             </div>
             <p className="text-white/70 text-sm leading-relaxed max-w-xs">
@@ -106,7 +106,7 @@ export default function Footer() {
         {/* Divider + Copyright */}
         <div className="mt-12 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-white/40 text-xs">
-            © {currentYear} FastTrack Services. All rights reserved.
+            © {currentYear} AllWay Services. All rights reserved.
           </p>
           <p className="text-white/30 text-xs">
             Built with love using{" "}

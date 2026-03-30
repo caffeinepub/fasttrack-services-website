@@ -68,7 +68,7 @@ export default function EmployersPage() {
     <div className="flex flex-col">
       <PageHeader
         title="Hire the Right People, Fast"
-        subtitle="Partner with FastTrack Services to build the reliable, skilled workforce your business needs to grow."
+        subtitle="Partner with AllWay Services to build the reliable, skilled workforce your business needs to grow."
         breadcrumb="For Employers"
       />
 
@@ -84,7 +84,7 @@ export default function EmployersPage() {
                 Your Trusted Hiring Partner
               </h2>
               <p className="text-brand-text-mid leading-relaxed mt-6 mb-5">
-                Looking to grow your team? FastTrack Services provides reliable,
+                Looking to grow your team? AllWay Services provides reliable,
                 pre-screened candidates tailored to your specific workforce
                 needs. We take the burden of recruitment off your shoulders so
                 you can focus on running your business.

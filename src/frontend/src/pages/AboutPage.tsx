@@ -39,7 +39,7 @@ export default function AboutPage() {
   return (
     <div className="flex flex-col">
       <PageHeader
-        title="About FastTrack Services"
+        title="About AllWay Services"
         subtitle="Our story, mission, and the values that drive everything we do."
         breadcrumb="Our Company"
       />
@@ -58,15 +58,15 @@ export default function AboutPage() {
             </h2>
             <div className="h-[3px] w-12 bg-brand-sky rounded-full mx-auto mb-8" />
             <p className="text-brand-text-mid leading-relaxed text-lg mb-5">
-              FastTrack Services is a newly established manpower solutions
-              provider committed to bridging the gap between skilled talent and
+              AllWay Services is a newly established manpower solutions provider
+              committed to bridging the gap between skilled talent and
               businesses that need workforce support. We specialize in
               connecting the right people to the right opportunities —
               efficiently, reliably, and with a personalized touch.
             </p>
             <p className="text-brand-text-mid leading-relaxed">
               Founded with a vision to transform the way businesses approach
-              staffing and talent acquisition, FastTrack Services combines
+              staffing and talent acquisition, AllWay Services combines
               cutting-edge recruitment practices with deep industry knowledge to
               deliver workforce solutions that genuinely make a difference. We
               understand that every placement represents not just a business
