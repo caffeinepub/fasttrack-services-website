@@ -14,6 +14,7 @@ import EmployersPage from "./pages/EmployersPage";
 import HomePage from "./pages/HomePage";
 import IndustriesPage from "./pages/IndustriesPage";
 import JobSeekersPage from "./pages/JobSeekersPage";
+import PresentationPage from "./pages/PresentationPage";
 import ServicesPage from "./pages/ServicesPage";
 
 const rootRoute = createRootRoute({
@@ -71,6 +72,12 @@ const contactRoute = createRoute({
   component: ContactPage,
 });
 
+const presentationRoute = createRoute({
+  getParentRoute: () => rootRoute,
+  path: "/presentation",
+  component: PresentationPage,
+});
+
 const routeTree = rootRoute.addChildren([
   homeRoute,
   aboutRoute,
@@ -79,6 +86,7 @@ const routeTree = rootRoute.addChildren([
   jobSeekersRoute,
   employersRoute,
   contactRoute,
+  presentationRoute,
 ]);
 
 const router = createRouter({ routeTree });
