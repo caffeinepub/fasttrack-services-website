@@ -11,6 +11,11 @@ const navLinks = [
   { label: "Job Seekers", path: "/job-seekers", ocid: "nav.job_seekers_link" },
   { label: "Employers", path: "/employers", ocid: "nav.employers_link" },
   { label: "Contact Us", path: "/contact", ocid: "nav.contact_link" },
+  {
+    label: "Presentation",
+    path: "/presentation",
+    ocid: "nav.presentation_link",
+  },
 ] as const;
 
 export default function Navbar() {
